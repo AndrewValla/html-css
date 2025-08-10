@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio 001</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <h1>Desafio das mensagens</h1>
+    <p>Está é a primeira vez que faço um texto <br> com quebra de linhas. Meu objetivo é ter <br> entendido como funciona a quebra de linhas.</p>
+    <p>Usando a tag &lt;p&gt;(parágrafo) Este texto deve <br> estar a uma linha de espaço do texto acima. </p>
+    <h1>Inserindo fotos no <abbr title="HyperText Markup Language">HTML5</abbr></h1>
+    <p>Inserir fotos é bem simples, tanto no conteúdo, quanto como icone <br> de favoritos.
+    Basta inserir a tag &lt;img&gt; e o nome do arquivo da foto <br> (para inserir a foto no conteúdo), e na estrutura Head , use link:favicon <br> sem os sinais de &lt; &gt; para iserir o icone de favorito</p>
+    <abbr title="Gostosa"><img src="ediuidis sexy-500.jpeg" alt="imagen da gostosa"></abbr>
+    <p>Aqui temos um exemplo de uma foto no contéudo da <br> página, e lá em cima temos o icone de favoritos.</p>
+    <h1>Treinando uso de imagens e quebra de linhas</h1>
+    <abbr title="Mapa Mundi">
+        <p><img src="esq-cima.png" alt=""> <img src="centro-cima.png" alt=""> <img src="dire-cima.png" alt=""> <br> <img src="esq-centro.png" alt=""> <img src="centro-centro.png" alt=""> <img src="dire-centro.png" alt=""> <br> <img src="esq-baixo.png" alt=""> <img src="centro-baixo.png" alt=""> <img src="dir-baixo.png" alt=""></p>
+    </abbr>
+    <h1>Treinando listas e emojis</h1>
+    <h2>Listas com</h2>
+    <ul>
+        <li>&#x1F7E5</li>
+        <li>&#x1F7E8</li>
+        <li>&#x1F6BC</li>
+        <li>&#x1F7EB</li>
+        <li>&#x2714</li>
+        <li>&#x2622</li>
+    </ul>
+    <h2>Listas numeradas</h2>
+    <ol type="1">
+        <li>&#x1F7E5</li>
+        <li>&#x1F7E8</li>
+        <li>&#x1F6BC</li>
+        <li>&#x1F7EB</li>
+        <li>&#x2714</li>
+    </ol>
+    <h1>Andrew Valladez</h1>
+    <h2>Quem sou eu?</h2>
+    <img src="foto23.PNG" alt="Eu">
+    <p>Meu nome é <strong>Andrew Valladez</strong>, tenho 24 anos, e estou começando meus estudos <br>na programação. Meu objetivo é trabalhar nesta área nos proximos anos e com <br> as aulas do professor <strong>Gustavo Guanabara</strong>, sei que vou alcançar esse objetivo mais rapido.</p>
+    <h2>Redes sociais</h2>
+    <ul>
+        <li><img src="icone-facebook.png" alt="Facebook"><a href="https://www.facebook.com/andrew.valladez" target="_blank" rel="nofollow"><ins>/andrew.valladez</ins></a> - Meu perfil no Facebook</li>
+        <li><img src="icone-linkedin.png" alt="Linkedin"><a href="https://www.linkedin.com/in/andrew-valladez-71808529b/" target="_blank" rel="nofollow"><ins>/andrew-valladez</ins></a> - Meu perfil no Linkedin</li>
+        <li><img src="icone-instagram.png" alt="icone-instagram"><a href="https://www.instagram.com/gaabsferraz/" target="_blank" rel="nofollow"><ins>/gaabsferraz</ins></a> - Perfil da minha Deusa</li>
+        <li><img src="icone-github.png" alt="icone-github"><a href="https://github.com/Valladez" target="_blank" rel="nofollow"><ins>/Valladez</ins></a> - Meu perfil no Github</li>
+        <li><img src="icone-youtube.png" alt="icone-youtube"><a href="https://www.youtube.com/@Jhouzim" target="_blank" rel="nofollow"><ins>/Jhouzim</ins></a> - Perfil do mano macaco</li>
+    </ul>
+    <h1>Tags em HTML5</h1>
+    <h2>Em HTML podemos inserir elementos da lista a seguir. Passeo mouse <br> em cada termo para descobrir qual tag deverá ultilizar em cada caso</h2>
+    <ul>
+        <li><abbr title="Use a tag &lt;p&gt;">Parágrafo</abbr></li>
+        <li><abbr title="Use a tag &lt;h1&gt;...&lt;h6&gt;">Títulos</abbr></li>
+        <li><abbr title="Use a tag &lt;img&gt;">imagens</abbr></li>
+        <li><abbr title="Use a tag &lt;abbr&gt;">Abreviações</abbr></li>
+        <li><abbr title="Use a tag &lt;code&gt;">Códigos-fonte</abbr></li>
+        <li><abbr title="Use a tag &lt;ol&gt; e &lt;li&gt;">Listas numeradas</abbr></li>
+        <li><abbr title="Use a tag &lt;ul&gt; e &lt;li&gt;">Lista com demarcadores</abbr></li>
+    </ul>
+    <h1>Vamos inserir uma foto e ver como ela se comporta em varios tamanhos de telas.</h1>
+    <picture>
+        <source media="(max-width: 750px)" srcset="foto-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="foto-m.png" type="image/png">
+        <img src="foto-g.png" alt="foto-g">
+    </picture>
+    <h1>Inserindo Audio</h1>
+    <audio preload="metadata" src="flying.mp3" controls autoplay></audio>
+    <p>Se o audio não reproduzir <a href="flying.zip" download="flying.zip" type="application/zip">Clique aqui para baixar</a></p>
+    <h1>Inserrindo videos</h1>
+    <p>Assim como audios, também pode-se inserir videos.</p>
+    <video poster="morango-capa.png" width="500" src="meu-video.mp4" controls autoplay></video>
+    <h1>Agora vamos para outras páginas</h1>
+    <p>Para ir para a segunda página <a href="pag002.html" target="_self" rel="next"><ins>Clique aqui</ins></a></p>
+    <p>Para ir para a terceira página <a href="pag003.html" target="_self" rel="next"><ins>Clique aqui</ins></a></p>
+</body>
+</html>
